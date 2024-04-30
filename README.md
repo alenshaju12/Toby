@@ -47,7 +47,8 @@ Before you begin, make sure you have all the necessary components:
 ### Step 3: Assembling Toby
 
 1. **Assemble the Legs**:
-   - Follow the provided diagram to assemble Toby's legs.
+   - Follow the provided diagram to assemble Toby's legs. After setting all the servo to 90 degree.
+   ![Toby Legs Assembly Diagram](Diagram.jpeg)
    - Attach the legs to the base using the gapper pieces.
 
 2. **Connect Components**:
