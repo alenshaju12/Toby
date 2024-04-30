@@ -14,7 +14,7 @@ Before you begin, make sure you have all the necessary components:
 
 - Raspberry Pi Zero W
 - PCA9685 servo controller
-- 8 servo motors
+- 8 servo motors (MG90 SERVO)
 - 3D printed components:
   - base.stl: 1 piece
   - gapper.stl: 16 pieces
