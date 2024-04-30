@@ -1,4 +1,24 @@
+import speech_recognition as sr
 import paramiko
+
+# Initialize recognizer
+r = sr.Recognizer()
+
+# Function to convert speech to text
+def speech_to_text():
+    with sr.Microphone() as source:
+        print("Listening...")
+        r.adjust_for_ambient_noise(source)  # Adjust for ambient noise
+        audio = r.listen(source,timeout=4)  # Listen to microphone input
+        try:
+            text = r.recognize_google(audio)  # Recognize speech using Google Speech Recognition
+            return text
+        except sr.UnknownValueError:
+            print("Could not understand audio")
+        except sr.RequestError as e:
+            print("Error recognizing speech; {0}".format(e))
+        except sr.WaitTimeoutError:
+            print("No audio detected")
 
 # Function to run remote script on Raspberry Pi
 def run_remote_script(ip, username, password, script_path):
@@ -21,7 +41,7 @@ def main():
     pi_username = 'pi'
     pi_password = 'pi'
     while t == 1:
-        text = input()
+        text = speech_to_text()
         if text:
             print("You said:", text)
             # Remove spaces from the text
