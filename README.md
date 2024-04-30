@@ -75,6 +75,6 @@ Congratulations! You've successfully built Toby, the Robo Dog. We hope you enjoy
 
 For any questions or assistance, refer to the documentation or reach out to the project contributors. Happy building!
 
-![V1](V1.mp4)
-![V2](V2.mp4)
-![V3](V3.mp4)
+![V1](https://youtu.be/FW1k5YOGiBQ)
+![V2](https://youtube.com/shorts/Q5g36nbDJ7E)
+![V3](https://youtube.com/shorts/HIqalEFluzE)
