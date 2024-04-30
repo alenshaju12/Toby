@@ -67,10 +67,14 @@ Before you begin, make sure you have all the necessary components:
 
 ## Using Toby
 
-Once Toby is assembled and programmed, interact with him using the `mainl.py` script. Simply type commands like "walk", "sit", "standup", "wave", or "stop" to see Toby in action.
+Once Toby is assembled and programmed, interact with him using the `mainl.py` script. Simply give commands like "walk", "sit", "standup", "wave", or "stop" to see Toby in action.
 
 ## Conclusion
 
 Congratulations! You've successfully built Toby, the Robo Dog. We hope you enjoy this project and find it both educational and entertaining. Feel free to customize Toby and share your modifications with the community.
 
 For any questions or assistance, refer to the documentation or reach out to the project contributors. Happy building!
+
+![V1](V1.mp4)
+![V2](V2.mp4)
+![V3](V3.mp4)
